@@ -46,3 +46,8 @@ Ensure you have **Python 3.x** installed and the required libraries:
 
 ```sh
 pip install pandas openpyxl
+
+git clone https://github.com/Amarnath-216/hospital-management-system.git
+cd hospital-management-system
+python hospital_management.py
+
