@@ -41,13 +41,51 @@ This is a **Hospital Management System** built using **Python** and **Excel (ope
 
 ## ▶️ How to Run
 
-### **🔹 Prerequisites**
-Ensure you have **Python 3.x** installed and the required libraries:
+### Prerequisites
+Ensure you have Python 3.x installed and the required libraries. Run the following command in your terminal:
 
-```sh
-pip install pandas openpyxl
+    pip install pandas openpyxl
 
-git clone https://github.com/Amarnath-216/hospital-management-system.git
-cd hospital-management-system
-python hospital_management.py
+### Running the Program
+Clone the repository and navigate to the project directory by running:
 
+    git clone https://github.com/Amarnath-216/hospital-management-system.git
+    cd hospital-management-system
+    python hospital_management.py
+
+---
+
+## 📝 Usage Example
+
+:::::::::::::::::::: HOSPITAL MANAGEMENT SYSTEM :::::::::::::::::::::
+                
+                1. Display the details
+                2. Add a new member
+                3. Delete a member
+                4. Make an exit
+
+Enter your Choice: 1
+
+                1. Doctors Details
+                2. Co-worker Details
+                3. Patient Details
+
+Enter your choice: 1
+
+If the data exists, it will be displayed; otherwise, a message will indicate that it's empty.
+
+---
+
+## 🛠 Future Enhancements
+- **Update Functionality**: Ability to modify existing records.
+- **GUI Interface**: Implement a Tkinter or Flask-based UI.
+- **Search Feature**: Allow users to search for specific records.
+- **Analytics Dashboard**: Generate reports and insights from stored data.
+
+---
+
+## 📌 Author
+- **Amarnath P**  
+- GitHub: [Amarnath-216](https://github.com/Amarnath-216)
+
+---
